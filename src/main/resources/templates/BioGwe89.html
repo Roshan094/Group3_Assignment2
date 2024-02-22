@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>GW's Page</title>
+</head>
+<body>
+	<img th:src="@{/images/GW.png}" alt="George's Selfie" th:width="300px" th:height="300px"/>
+	<p th:text="'First Name: ' + ${selfiS3.firstName}" />
+	<p th:text="'Last name: ' + ${selfiS3.lastName}" />
+	<p th:text="'Student Number: ' + ${selfiS3.studentNumber}" />
+	<p th:text="'Description: ' + ${selfiS3.description}" />
+</body>
+</html>

@@ -4,6 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import com.csis3275.model_grp3_assign2.SelfieGwe89;
 import com.csis3275.model_grp3_assign2.Selfie_Mau_62;
 import com.csis3275.model_grp3_assign2.Selfie_rka_34;
 
@@ -36,4 +37,13 @@ public class HomeController {
 			return "selfie/Mau_62";
 		}
 
+//		Creating GW's model
+		SelfieGwe89 s3 = new SelfieGwe89("George","WENG","300***","Group 3 - member 1");
+
+//		with url BioGwe89.html
+		@GetMapping("/GW")
+		public String smartPhoneDetails1(Model model) {
+			model.addAttribute("modelS3", s3);
+			return "BioGwe89";
+		}
 }

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<img th:src="@{/images/image2.jpg}" th:width="300" th:height="300" alt="Image"/>
+	<p th:text="'First Name: ' + ${selfiS1.firstName}" />
+	<p th:text="'Last name: ' + ${selfiS1.lastName}" />
+	<p th:text="'Student Number: ' + ${selfiS1.studentNumber}" />
+	<p th:text="'Description: ' + ${selfiS1.description}" />
+</body>
+</html>

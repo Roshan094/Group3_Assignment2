@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.csis3275.controller_grp3_assign2","l":"HomeController"}];updateSearchResults();

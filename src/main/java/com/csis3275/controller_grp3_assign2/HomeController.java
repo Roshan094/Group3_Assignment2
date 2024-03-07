@@ -43,7 +43,7 @@ public class HomeController {
 //		with url BioGwe89.html
 		@GetMapping("/GW")
 		public String smartPhoneDetails1(Model model) {
-			model.addAttribute("modelS3", s3);
-			return "BioGwe89";
+			model.addAttribute("selfiS3", s3);
+			return "selfie/BioGwe89";
 		}
 }
